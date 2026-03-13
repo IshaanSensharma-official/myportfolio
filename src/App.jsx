@@ -8,26 +8,20 @@ import Work from "./components/Work/Work";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import BlurBlob from "./components/BlurBlob";
+import MeteorBackground from "./components/MeteorBackground";
 
 const App = () => {
   return (
-    <div className="bg-[#050414] min-h-screen text-white relative overflow-x-hidden">
-
-      {/* Background effects */}
-      <div className="absolute inset-0 -z-10">
-        <BlurBlob
-          position={{ top: "30%", left: "20%" }}
-          size={{ width: "500px", height: "500px" }}
-        />
-
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f20_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f20_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-      </div>
+    <div
+      className="min-h-screen text-white overflow-x-hidden relative"
+      style={{ backgroundColor: "#050414" }}
+    >
+      {/* Meteor shower background */}
+      <MeteorBackground />
 
       <Navbar />
 
-      <main className="relative pt-28 space-y-32">
-
+      <main className="pt-28 relative" style={{ zIndex: 1 }}>
         <About />
         <Skills />
         <Experience />
@@ -35,9 +29,7 @@ const App = () => {
         <Education />
         <Contact />
         <Footer />
-
       </main>
-
     </div>
   );
 };
