@@ -60,6 +60,7 @@
     // Project Section Logo's
     import ResumeBuilderLogo from './assets/work_logo/resume_builder.png';
     import ContactsOrganizerLogo from './assets/work_logo/contacts-organizer.png';
+    import StockMarketPredictorLogo from './assets/work_logo/Stock_Price.png';
 
     export const SkillsInfo = [
     {
@@ -215,5 +216,15 @@
         tags: ["JavaScript", "Next JS", "Tailwind CSS"],
         github: "https://github.com/IshaanSensharma-official/contacts-organizer.git",
         webapp: "https://github.com/IshaanSensharma-official/contacts-organizer.git",
+        },
+        {
+        id: 2,
+        title: "Stock Market Price Predictor",
+        description:
+            "This project implements a stacked LSTM neural network to predict stock prices using real-time data fetched from Yahoo Finance. What sets it apart is its multi-layered architecture with progressively increasing dropout rates (20-50%) specifically designed to prevent overfitting while capturing complex temporal patterns. The model automatically downloads 10 years of historical data for any valid ticker, processes it with MinMax scaling, and generates comprehensive visualizations including moving averages and prediction comparisons—all built as an educational tool to demonstrate deep learning's application to time series forecasting.",
+        image: StockMarketPredictorLogo,
+        tags: ["Python", "TensorFlow", "Keras", "NumPy", "Pandas", "Matplotlib"],
+        github: "https://github.com/IshaanSensharma-official/Stock-Price-Prediction",
+        webapp: "https://github.com/IshaanSensharma-official/Stock-Price-Prediction",
         },
     ];  
