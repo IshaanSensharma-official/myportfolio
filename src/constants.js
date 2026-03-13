@@ -61,6 +61,7 @@
     import ResumeBuilderLogo from './assets/work_logo/resume_builder.png';
     import ContactsOrganizerLogo from './assets/work_logo/contacts-organizer.png';
     import StockMarketPredictorLogo from './assets/work_logo/Stock_Price.png';
+    import StockMarketPredictorTableauLogo from './assets/work_logo/Stock_Price_Tableau.png'
 
     export const SkillsInfo = [
     {
@@ -226,5 +227,15 @@
         tags: ["Python", "TensorFlow", "Keras", "NumPy", "Pandas", "Matplotlib"],
         github: "https://github.com/IshaanSensharma-official/Stock-Price-Prediction",
         webapp: "https://github.com/IshaanSensharma-official/Stock-Price-Prediction",
+        },
+        {
+        id: 3,
+        title: "Stock Market Price Predictor Tableau Dashboard",
+        description:
+            "This project presents an interactive stock market dashboard built in Tableau, designed to analyze and visualize historical performance for six major tech companies (Apple, Facebook, Google, Nvidia, Tesla, and Twitter). The underlying data was preprocessed using Python (Pandas) to engineer key financial indicators, including 50-day and 200-day moving averages, daily price changes, and volume fluctuations. The dashboard itself integrates multiple views: a date-filtered header displaying total volume and price ranges, a time-series area chart tracking trading volume trends, and detailed tables breaking down day-over-day price and volume changes with computed deltas. Additional analytical components include a price percent change bar chart and a comparative moving average line chart, allowing users to quickly assess momentum, volatility, and relative performance across all stocks for any selected period.",
+        image: StockMarketPredictorTableauLogo,
+        tags: ["Tableau", "Python", "Pandas", "Matplotlib"],
+        github: "https://github.com/IshaanSensharma-official/Stock-Market-Tableau-Dashboard",
+        webapp: "https://github.com/IshaanSensharma-official/Stock-Market-Tableau-Dashboard",
         },
     ];  
