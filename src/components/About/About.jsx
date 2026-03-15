@@ -41,7 +41,7 @@
 
             {/* Resume Button */}
             <a
-            href="https://drive.google.com/file/d/1LpUfXzjD7urHU2v1cCe2_oCUPURCaEiZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TYUyiYQN51a_BApx1I9sy2wPkn6vtAJ4/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-8 text-lg font-bold transition duration-300 transform hover:scale-105"
